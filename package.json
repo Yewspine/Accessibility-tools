@@ -1,0 +1,36 @@
+{
+  "name": "accessibility-tools",
+  "version": "1.0.0",
+  "description": "A tool that aim to facilitate integration of accessibility features ",
+  "keywords": [
+    "accessibility",
+    "browser",
+    "integration"
+  ],
+  "homepage": "https://github.com/Yewspine/Accessibility-tools#readme",
+  "bugs": {
+    "url": "https://github.com/Yewspine/Accessibility-tools/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Yewspine/Accessibility-tools.git"
+  },
+  "license": "CC0-1.0",
+  "author": "Yewspine",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "docs": "jsdoc -c jsdoc.config.json -r .",
+    "build": "tsup src/index.js --format esm,cjs --dts"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@stylistic/eslint-plugin-js": "^4.4.0",
+    "eslint": "^9.28.0",
+    "jest": "^29.7.0",
+    "jsdoc": "^4.0.4",
+    "tsup": "^8.5.0"
+  }
+}
